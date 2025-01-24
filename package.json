@@ -1,0 +1,29 @@
+{
+  "name": "senmo-bot",
+  "version": "1.0.0",
+  "description": "A chatbot for money transfers.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.0.0",
+    "@line/bot-sdk": "^9.5.1",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "plaid": "^10.0.0",
+    "sequelize": "^6.6.5",
+    "twilio": "^3.66.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "Keith Chen",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
